@@ -45,7 +45,7 @@ li {
   height: 500px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 10% 40% 40% 10%;
   /* grid-column-gap: 10px; */
 }
@@ -113,3 +113,14 @@ li {
   font-family: futura, tahoma, sans-serif;
   font-size: 1em;
 }
+/* Left Colour Classes -------------------------------------------------------- */
+.white, .white_2 { background-color: white; }
+.red, .red_2 { background-color: red; }
+.orange, .orange_2 { background-color: orange; }
+.yellow, .yellow_2 { background-color: yellow; }
+.green, .green_2 { background-color: green; }
+.palegreen, .palegreen_2 { background-color: palegreen; }
+.lightblue, .lightblue_2 { background-color: lightblue; }
+.blue, .blue_2 { background-color: blue; }
+.grey, .grey_2 { background-color: grey; }
+.black, .black_2 { background-color: black; color: white; }
