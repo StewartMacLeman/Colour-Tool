@@ -1,0 +1,115 @@
+/* General Styles ------------------------------------------------- */
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-family: "bradley hand" , cursive;
+  font-size: 3em;
+  margin: 0 auto;
+}
+p {
+  font-family: futura, tahoma, sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 5px;
+}
+/* Header Section Styles ------------------------------------------------- */
+header {
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.instructions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+ol {
+  margin: 0 auto;
+  text-align: left;
+}
+li {
+  font-family: futura, tahoma, sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+}
+/* Section Styles ------------------------------------------------- */
+.gridContainer {
+  margin: 10px auto;
+  border: 2px solid black;
+  width: 95%;
+  height: 500px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 10% 40% 40% 10%;
+  /* grid-column-gap: 10px; */
+}
+.colourText_1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colourText_2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colourBG_1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.colourBG_2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 2 / 2;
+  grid-row: 2 / 3;
+}
+.colourScroll_1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  overflow-x: scroll;
+}
+.colourScroll_2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 2 / 2;
+  grid-row: 3 / 4;
+  overflow-x: scroll;
+}
+.scroll_Para {
+  border: 1px solid black;
+  border-radius: 0px;
+}
+.reset_btn_1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  font-family: futura, tahoma, sans-serif;
+  font-size: 1em;
+}
+.reset_btn_2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-column: 2 / 2;
+  grid-row: 4 / 5;
+  font-family: futura, tahoma, sans-serif;
+  font-size: 1em;
+}
