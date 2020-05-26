@@ -1,4 +1,4 @@
-/* General Styles ------------------------------------------------- */
+/* General Styles -------------------------------------------------------- */
 body {
   margin: 0 auto;
   text-align: center;
@@ -23,7 +23,6 @@ header {
 }
 
 .instructions {
-  position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
@@ -47,7 +46,6 @@ li {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 10% 40% 40% 10%;
-  /* grid-column-gap: 10px; */
 }
 .colourText_1 {
   border: 2px solid black;
@@ -113,14 +111,148 @@ li {
   font-family: futura, tahoma, sans-serif;
   font-size: 1em;
 }
-/* Left Colour Classes -------------------------------------------------------- */
-.white, .white_2 { background-color: white; }
-.red, .red_2 { background-color: red; }
-.orange, .orange_2 { background-color: orange; }
-.yellow, .yellow_2 { background-color: yellow; }
-.green, .green_2 { background-color: green; }
-.palegreen, .palegreen_2 { background-color: palegreen; }
-.lightblue, .lightblue_2 { background-color: lightblue; }
-.blue, .blue_2 { background-color: blue; }
-.grey, .grey_2 { background-color: grey; }
-.black, .black_2 { background-color: black; color: white; }
+.reset_btn_1:hover, .reset_btn_2:hover {
+  background-color: black;
+  color: white;
+}
+/* Colour Classes -------------------------------------------------------- */
+.white, .white_2  { background-color  : white;  }
+.snow, .snow_2  { background-color  : snow;  }
+.honeydew, .honeydew_2  { background-color  : honeydew;  }
+.mintcream, .mintcream_2  { background-color  : mintcream;  }
+.azure, .azure_2  { background-color  : azure;  }
+.aliceblue, .aliceblue_2  { background-color  : aliceblue;  }
+.ghostwhite, .ghostwhite_2  { background-color  : ghostwhite;  }
+.whitesmoke, .whitesmoke_2  { background-color  : whitesmoke;  }
+.seashell, .seashell_2  { background-color  : seashell;  }
+.beige, .beige_2  { background-color  : beige;  }
+.oldlace, .oldlace_2  { background-color  : oldlace;  }
+.floralwhite, .floralwhite_2  { background-color  : floralwhite;  }
+.ivory, .ivory_2  { background-color  : ivory;  }
+.antiquewhite, .antiquewhite_2  { background-color  : antiquewhite;  }
+.linen, .linen_2  { background-color  : linen;  }
+.lavenderblush, .lavenderblush_2  { background-color  : lavenderblush;  }
+.mistyrose, .mistyrose_2  { background-color  : mistyrose;  }
+.cornsilk, .cornsilk_2  { background-color  : cornsilk;  }
+.blanchedalmond, .blanchedalmond_2  { background-color  : blanchedalmond;  }
+.bisque, .bisque_2  { background-color  : bisque;  }
+.navajowhite, .navajowhite_2  { background-color  : navajowhite;  }
+.wheat, .wheat_2  { background-color  : wheat;  }
+.burlywood, .burlywood_2  { background-color  : burlywood;  }
+.tan, .tan_2  { background-color  : tan;  }
+.rosybrown, .rosybrown_2  { background-color  : rosybrown;  }
+.sandybrown, .sandybrown_2  { background-color  : sandybrown;  }
+.goldenrod, .goldenrod_2  { background-color  : goldenrod;  }
+.darkgoldenrod, .darkgoldenrod_2  { background-color  : darkgoldenrod;  }
+.peru, .peru_2  { background-color  : peru;  }
+.chocolate, .chocolate_2  { background-color  : chocolate;  }
+.saddlebrown, .saddlebrown_2  { background-color  : saddlebrown; color: white; }
+.sienna, .sienna_2  { background-color  : sienna; color: white; }
+.brown, .brown_2  { background-color  : brown; color: white; }
+.maroon, .maroon_2  { background-color  : maroon; color: white; }
+.lightsalmon, .lightsalmon_2  { background-color  : lightsalmon;  }
+.salmon, .salmon_2  { background-color  : salmon;  }
+.darksalmon, .darksalmon_2  { background-color  : darksalmon;  }
+.lightcoral, .lightcoral_2  { background-color  : lightcoral;  }
+.indianred, .indianred_2  { background-color  : indianred;  }
+.crimson, .crimson_2  { background-color  : crimson;  }
+.firebrick, .firebrick_2  { background-color  : firebrick; color: white; }
+.darkred, .darkred_2  { background-color  : darkred; color: white; }
+.red, .red_2  { background-color  : red;  }
+.orangered, .orangered_2  { background-color  : orangered;  }
+.tomato, .tomato_2  { background-color  : tomato;  }
+.coral, .coral_2  { background-color  : coral;  }
+.darkorange, .darkorange_2  { background-color  : darkorange;  }
+.orange, .orange_2  { background-color  : orange;  }
+.yellow, .yellow_2  { background-color  : yellow;  }
+.lightyellow, .lightyellow_2  { background-color  : lightyellow;  }
+.lemonchiffon, .lemonchiffon_2  { background-color  : lemonchiffon;  }
+.lightgoldenrodyellow, .lightgoldenrodyellow_2  { background-color  : lightgoldenrodyellow;  }
+.papayawhip, .papayawhip_2  { background-color  : papayawhip;  }
+.moccasin, .moccasin_2  { background-color  : moccasin;  }
+.peachpuff, .peachpuff_2  { background-color  : peachpuff;  }
+.palegoldenrod, .palegoldenrod_2  { background-color  : palegoldenrod;  }
+.khaki, .khaki_2  { background-color  : khaki;  }
+.darkkhaki, .darkkhaki_2  { background-color  : darkkhaki;  }
+.gold, .gold_2  { background-color  : gold;  }
+.darkolivegreen, .darkolivegreen_2  { background-color  : darkolivegreen;  }
+.olive, .olive_2  { background-color  : olive;  }
+.olivedrab, .olivedrab_2  { background-color  : olivedrab;  }
+.yellowgreen, .yellowgreen_2  { background-color  : yellowgreen;  }
+.limegreen, .limegreen_2  { background-color  : limegreen;  }
+.lime, .lime_2  { background-color  : lime;  }
+.lawngreen, .lawngreen_2  { background-color  : lawngreen;  }
+.chartreuse, .chartreuse_2  { background-color  : chartreuse;  }
+.greenyellow, .greenyellow_2  { background-color  : greenyellow;  }
+.springgreen, .springgreen_2  { background-color  : springgreen;  }
+.mediumspringgreen, .mediumspringgreen_2  { background-color  : mediumspringgreen;  }
+.lightgreen, .lightgreen_2  { background-color  : lightgreen;  }
+.palegreen, .palegreen_2  { background-color  : palegreen;  }
+.darkseagreen, .darkseagreen_2  { background-color  : darkseagreen;  }
+.mediumaquamarine, .mediumaquamarine_2  { background-color  : mediumaquamarine;  }
+.mediumseagreen, .mediumseagreen_2  { background-color  : mediumseagreen;  }
+.seagreen, .seagreen_2  { background-color  : seagreen;  }
+.forestgreen, .forestgreen_2  { background-color  : forestgreen; color: white; }
+.green, .green_2  { background-color  : green; color: white; }
+.darkgreen, .darkgreen_2  { background-color  : darkgreen; color: white; }
+.aqua, .aqua_2  { background-color  : aqua;  }
+.cyan, .cyan_2  { background-color  : cyan;  }
+.lightcyan, .lightcyan_2  { background-color  : lightcyan;  }
+.paleturquoise, .paleturquoise_2  { background-color  : paleturquoise;  }
+.aquamarine, .aquamarine_2  { background-color  : aquamarine;  }
+.turquoise, .turquoise_2  { background-color  : turquoise;  }
+.mediumturquoise, .mediumturquoise_2  { background-color  : mediumturquoise;  }
+.darkturquoise, .darkturquoise_2  { background-color  : darkturquoise;  }
+.lightseagreen, .lightseagreen_2  { background-color  : lightseagreen;  }
+.cadetblue, .cadetblue_2  { background-color  : cadetblue;  }
+.darkcyan, .darkcyan_2  { background-color  : darkcyan; color: white; }
+.teal, .teal_2  { background-color  : teal; color: white; }
+.lightsteelblue, .lightsteelblue_2  { background-color  : lightsteelblue;  }
+.powderblue, .powderblue_2  { background-color  : powderblue;  }
+.lightblue, .lightblue_2  { background-color  : lightblue;  }
+.skyblue, .skyblue_2  { background-color  : skyblue;  }
+.lightskyblue, .lightskyblue_2  { background-color  : lightskyblue;  }
+.deepskyblue, .deepskyblue_2  { background-color  : deepskyblue;  }
+.dodgerblue, .dodgerblue_2  { background-color  : dodgerblue;  }
+.cornflowerblue, .cornflowerblue_2  { background-color  : cornflowerblue;  }
+.steelblue, .steelblue_2  { background-color  : steelblue;  }
+.royalblue, .royalblue_2  { background-color  : royalblue;  }
+.blue, .blue_2  { background-color  : blue; color: white; }
+.mediumblue, .mediumblue_2  { background-color  : mediumblue; color: white; }
+.darkblue, .darkblue_2  { background-color  : darkblue; color: white; }
+.navy, .navy_2  { background-color  : navy; color: white; }
+.midnightblue, .midnightblue_2  { background-color  : midnightblue; color: white; }
+.pink, .pink_2  { background-color  : pink;  }
+.lightpink, .lightpink_2  { background-color  : lightpink;  }
+.hotpink, .hotpink_2  { background-color  : hotpink;  }
+.deeppink, .deeppink_2  { background-color  : deeppink;  }
+.palevioletred, .palevioletred_2  { background-color  : palevioletred;  }
+.mediumvioletred, .mediumvioletred_2  { background-color  : mediumvioletred;  }
+.lavender, .lavender_2  { background-color  : lavender;  }
+.thistle, .thistle_2  { background-color  : thistle;  }
+.plum, .plum_2  { background-color  : plum;  }
+.violet, .violet_2  { background-color  : violet;  }
+.orchid, .orchid_2  { background-color  : orchid;  }
+.fuchsia, .fuchsia_2  { background-color  : fuchsia;  }
+.magenta, .magenta_2  { background-color  : magenta;  }
+.mediumorchid, .mediumorchid_2  { background-color  : mediumorchid;  }
+.mediumpurple, .mediumpurple_2  { background-color  : mediumpurple;  }
+.blueviolet, .blueviolet_2  { background-color  : blueviolet;  }
+.darkviolet, .darkviolet_2  { background-color  : darkviolet;  }
+.darkorchid, .darkorchid_2  { background-color  : darkorchid;  }
+.darkmagenta, .darkmagenta_2  { background-color  : darkmagenta; color: white; }
+.purple, .purple_2  { background-color  : purple; color: white; }
+.indigo, .indigo_2  { background-color  : indigo; color: white; }
+.darkslateblue, .darkslateblue_2  { background-color  : darkslateblue; color: white; }
+.slateblue, .slateblue_2  { background-color  : slateblue;  }
+.mediumslateblue, .mediumslateblue_2  { background-color  : mediumslateblue;  }
+.gainsboro, .gainsboro_2  { background-color  : gainsboro;  }
+.lightgray, .lightgray_2  { background-color  : lightgray;  }
+.silver, .silver_2  { background-color  : silver;  }
+.darkgray, .darkgray_2  { background-color  : darkgray;  }
+.gray, .gray_2  { background-color  : gray;  }
+.dimgray, .dimgray_2  { background-color  : dimgray;  }
+.lightslategray, .lightslategray_2  { background-color  : lightslategray;  }
+.slategray, .slategray_2  { background-color  : slategray;  }
+.darkslategray, .darkslategray_2  { background-color  : darkslategray; color: white; }
+.black, .black_2  { background-color  : black; color: white;  }
